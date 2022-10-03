@@ -141,3 +141,13 @@ Draw a shape on [https://observablehq.com/@claude-ducharme/h3-drawing-on-mapbox]
 ## Upload a shape to the backend ##
 
 Find the link to the webpage in the AWS account under CloudFormation / Stacks / LaFleet-ShapeStack / Outputs / UploadShapeLink. Format is [https://&lt;random&gt;.execute-api.&lt;region&gt;.amazonaws.com/upload-shape](https://&lt;random&gt;.execute-api.&lt;region&gt;.amazonaws.com/upload-shape). Paste the shape to the text box and click the “Submit” button. Next page will show “File uploaded successfully to s3://&lt;bucketName&gt;/&lt;objectKey&gt;” or the error if the operation failed.
+
+# Links #
+
+Medium articles
+* [https://medium.com/@claude.ducharme/building-a-geo-localisation-platform-db4841aac519](https://medium.com/@claude.ducharme/building-a-geo-localisation-platform-db4841aac519)
+* [https://medium.com/@claude.ducharme/selecting-a-geo-representation-81afeaf3bf01](https://medium.com/@claude.ducharme/selecting-a-geo-representation-81afeaf3bf01)
+* [https://medium.com/@claude.ducharme/my-experience-on-infra-as-code-with-aws-cdk-tips-tricks-c967fe357133](https://medium.com/@claude.ducharme/my-experience-on-infra-as-code-with-aws-cdk-tips-tricks-c967fe357133)
+
+observablehq collection
+* [https://observablehq.com/collection/@claude-ducharme/iot-project-lafleet](https://observablehq.com/collection/@claude-ducharme/iot-project-lafleet)
